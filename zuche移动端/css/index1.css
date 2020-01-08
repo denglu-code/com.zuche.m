@@ -1,0 +1,167 @@
+
+header {
+    width: 100%;
+    height: 44px;
+}
+
+.jt {
+    width: 100%;
+    height: 100%;
+}
+
+.jt span {
+    padding-left: 10px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main {
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+main h1 {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* 身体 */
+
+
+.shouji {
+    display: flex;
+    width: 100%;
+    height: 61px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.tb {
+    position: relative;
+    width: 28px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.tb i {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-image: url(../image/jltu4.png);
+  background-position: -115px 1px;
+  background-size: 266px 22px;
+}
+
+
+.shouji input {
+    width: 100%;
+    height: 36px;
+    border: 0;
+    color: #333;
+   margin-top: 13px;
+   font-size: 15px;
+}
+
+
+
+.shouji1 {
+    overflow: hidden;
+    width: 100%;
+    height: 61px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.tb1 {
+    float: left;
+    position: relative;
+    width: 28px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.tb1 i {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 17px;
+  height: 20px;
+  background-image: url(../image/jinlintu.png);
+  background-position: -40px 1px;
+  background-size: 319px 40px;
+}
+
+.tup {
+    float: right;
+    width: 110px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.tup img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.shouji1 input {
+   flex: 2;
+    height: 36px;
+    border: 0;
+    color: #333;
+   margin-top: 13px;
+   font-size: 15px;
+}
+
+
+.tup span {
+    font-size: 15px;
+    color: #757575;
+    line-height: 40px;
+}
+
+
+.dl {
+    height: 44px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .dl a {
+    width: 100%;
+    display: block;
+  }
+  
+  .dl a p{
+     line-height: 50px;
+     text-align: center;
+     color: #999999;
+     font-size: 15px;
+  }
+
+  footer {
+      position: relative;
+      width: 100%;
+      height: 52px;
+  }
+
+  .db {
+      position: absolute;
+      bottom: -183px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .db p {
+      text-align: center;
+      margin: 10px auto;
+  }
+
+  .db p a {
+      color: #f6b340;
+  }

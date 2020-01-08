@@ -1,0 +1,536 @@
+
+
+header{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .header-left{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    background-position: -25px 20px;
+    background-image: url(../image/jinlintu.png);
+    background-size: 319px 40px;
+  }
+
+
+.header-logo {
+    width: 100%;
+    text-align: center;
+    margin: 20 auto;
+}
+
+.header-logo img{
+    width: 90px;
+    height: 20px;
+    margin: 15px auto;
+}
+
+
+  .header-right{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    background-position: 212px 40px;
+    background-image: url(../image/jinlintu.png);
+    background-size: 319px 40px;
+  }
+
+  nav {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+    background-color: #fff;
+  }
+
+  nav span {
+      padding: 0px 67px;
+  }
+
+  nav .guonei {
+      color: #f7b340;
+  }
+  
+  /* 轮播图 */
+
+  /* main{
+
+  } */
+  
+  .lunbotu{
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .lunbotu ul{
+    width: 1000%;
+    overflow: hidden;
+  }
+  
+  .lunbotu li{
+    float: left;
+    width: 10%;
+  }
+  
+  .lunbotu a{
+    width: 100%;
+    display: block;
+  }
+  
+  .lunbotu img{
+    width: 100%;
+  }
+
+  .yuandian{
+    position: absolute;
+    top: 261px;
+    left: 155px;
+}
+
+.yuandian li{
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color:#fff;
+}
+
+.yuandian .yuandian1{
+    background-color: #eeb819;
+}
+
+/* 第三部分 */
+
+.main-bj {
+    width: 100%;
+    height: 90px;
+    /* margin: 0 0 0 15px; */
+}
+
+.main-bj1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    height: 45px;
+    padding: 18px 15px 16px 26px;
+    font-size: 14px;
+    line-height: 45px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.main-bj1 {
+width: 100%;
+}
+
+.main-bj1::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 14px;
+    height: 14px;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: -38px 1px;
+    background-size: auto 126%;
+    background-color: transparent;
+    background-image: url(https://mimage.zuchecdn.com/version652/icon/icon-stage.png);
+}
+
+.bj {
+  position: relative;
+  padding: 0px 14px 0px 10px;
+  min-width: 28px;
+}
+
+.bj i {
+  color: #c8c8ce;
+}
+
+.main-bj2 {
+    max-width: 52%;
+    margin-left: -47px;
+}
+
+.main-bj2 a {
+    color: #555;
+}
+
+.main-bj3 {
+    width: 70px;
+    height: 30px;
+    position: relative;
+    /* padding: 4px 6px; */
+    min-width: 56px;
+    border-radius: 12px;
+    background: #f2f2f2;
+    margin-right: 10px;
+}
+
+.main-bj3 span {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #93939e;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.main-bj3 .dd {
+    position: absolute;
+    left: 35px;
+    display: block;
+    width: 35px;
+    height: 30px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #f6b340;
+    padding-left: 5px;
+    
+}
+
+/* 第四部分 */
+
+.riqi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  min-height: 38px;
+  flex-basis: 28%;
+  margin: 20px 16px;
+}
+
+.riqi-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-basis: 25%;
+}
+
+.riqi-left .yue {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: #666;
+}
+
+
+.riqi-left span {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 14px;
+    color: #999;
+}
+
+
+.riqi-content {
+  position: relative;
+  display: flex;
+  height: 38px;
+}
+
+.riqi-content span::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -26px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #d2d2d2;
+}
+
+.riqi-content span {
+  position: absolute;
+  left: 20px;
+  height: 15px;
+  color: #f6b340;
+   
+}
+
+.riqi-content i {
+  font-size: 70px;
+  color: #d2d2d2;
+  line-height: 40px;
+}
+
+
+
+.riqi-right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.riqi-right .yue {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: #666;
+}
+
+
+.riqi-right span {
+   font-size: 14px;
+    letter-spacing: 0;
+    line-height: 14px;
+    color: #999;
+} 
+
+/* 立即选车 */
+
+.xc {
+  height: 50px;
+  margin: 0 15px;
+  background-color: #f6b340;
+  border-radius: 5px;
+}
+
+.xc a {
+  width: 100%;
+  display: block;
+}
+
+.xc a p{
+   line-height: 50px;
+   text-align: center;
+   color: #fff;
+   font-size: 15px;
+}
+
+.tc {
+  display: flex;
+ width: 100%;
+ height: 100px;
+}
+
+.tc ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tc li{
+  padding: 0 40px;
+  padding-top: 70px;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.tc a{
+  width: 100%;
+  display: block
+}
+
+.tc span {
+  color: #666666;
+  font-size: 13px;
+}
+
+
+
+ .tc .jlt {
+  background-image: url(../image/jinlintu.png);
+  position: absolute;
+  top: 543px;
+  left: 84px;
+  width: 18px;
+  height: 20px;
+  background-position: 263px 40px;
+  background-size: 319px 40px;
+
+}
+
+.tc .jlt2 {
+  background-image: url(../image/jinlintu.png);
+  position: absolute;
+  top: 543px;
+  left: 272px;
+  width: 18px;
+  height: 20px;
+  background-position: 343px 34px;
+  background-size: 319px 40px;
+}
+
+
+/* 底部 */
+
+footer {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: #f4f4f4;
+}
+
+ .sf {
+  /* display: flex; */
+  width: 100%;
+  height: 80px;
+  margin: 10px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.sf h3 {
+  margin-top: 10px;
+  float: left;
+  font-size: 18px;
+  color: #1b2b41;
+  font-weight: 100;
+  padding-left: 15px;
+}
+
+.sf a { 
+  margin-top: 10px;
+  float: right;
+  padding-right: 15px;
+  color: #333333;
+  font-size: 13px;
+}
+
+.sf p {
+  margin-top: 45px;
+  margin-left: 129px;
+  font-size: 15px;
+  color: #000000; 
+}
+
+footer p {
+  margin-left: 35%;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #2f2f39;
+}
+
+
+.APP {
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+
+.xzai {
+  float: left;
+  width: 45%;
+  height: 40px;
+  position: relative;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #dadadf;
+  border-radius: 8px;
+  color: #60606c;
+  background-color: #fff;
+  margin-left: 15px;
+
+}
+
+.xzai a {
+  width: 100%;
+  display: block;
+}
+
+.xzai span {
+  color: #60606c;
+  padding-left: 25px;
+}
+
+.xzai span::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 34px;
+  width: 22px;
+  height: 22px;
+  background-position: 6px -87px;
+  background-image: url(../image/jingltu2.png);
+  background-size: 200px 200px;
+}
+
+.fwen {
+  width: 45%;
+  height: 40px;
+  float: right;
+  position: relative;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #dadadf;
+  border-radius: 8px;
+  color: #60606c;
+  background-color: #fff;
+  margin-right: 15px;
+}
+
+.fwen span {
+  color: #60606c;
+  padding-left: 25px;
+}
+
+.fwen span::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 25px;
+  width: 22px;
+  height: 22px;
+  background-position: -24px -87px;
+  background-image: url(../image/jingltu2.png);
+  background-size: 200px 200px;
+}
+
+footer ul {
+  display: flex;
+  margin: 20px 20px 0;
+    font-size: 14px;
+}
+
+footer ul li {
+  flex-basis: 33.33%;
+  text-align: center;
+  border: 1px solid #000;
+  border-color: transparent #e8e8e8 transparent transparent;
+  padding: 5px 0;
+}
+
+
+ li:last-child{
+  border-right: none;
+}
+
+
+footer ul li a {
+  color: #60606c;
+}
+
+footer h3 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 100;
+}

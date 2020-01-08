@@ -1,0 +1,41 @@
+body,html {
+    margin: 0;
+    padding: 0; 
+    background-color: #f5f3f4;
+}
+
+.db {
+    width: 100%;
+
+}
+
+.db img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.tp {
+    width: 100%;
+}
+
+.tp img {
+    width: 100%;
+}
+
+.hd {
+    width: 100%;
+}
+
+.hd img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dibu {
+    width: 100%;
+}
+
+.dibu img {
+    width: 100%;
+    margin-bottom: 35px;
+}
