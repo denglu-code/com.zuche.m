@@ -231,7 +231,7 @@ main {
     margin: 11px 5px 11px 56px;
     float: left;
     display: block;
-    width: 30%;
+    width: 27%;
     height: 28px;
     border: 1px solid #6c6c6c;
     border-radius: 22px;
@@ -245,9 +245,9 @@ main {
 
 .foo a {
     margin: 11px 56px 11px 5px;
-    float: left;
+    float: right;
     display: block;
-    width: 30%;
+    width: 27%;
     height: 28px;
     border: 1px solid #6c6c6c;
     border-radius: 22px;

@@ -51,7 +51,10 @@ header{
   }
 
   nav span {
-      padding: 0px 67px;
+    float: left;
+    display: block;
+      width: 50%;
+      text-align: center;
   }
 
   nav .guonei {
@@ -90,14 +93,14 @@ header{
 
   .yuandian{
     position: absolute;
-    top: 261px;
-    left: 155px;
+    top: calc(228rem / 32);
+    left: calc(120rem / 32);
 }
 
 .yuandian li{
-    width: 8px;
-    height: 8px;
-    margin: 0 3px;
+    width: calc(8rem / 32);
+    height: calc(8rem / 32);
+    margin: 0 calc(3rem / 32);
     border-radius: 50%;
     box-sizing: border-box;
     background-color:#fff;
@@ -358,7 +361,7 @@ width: 100%;
   background-image: url(../image/jinlintu.png);
   position: absolute;
   top: 543px;
-  left: 84px;
+  left: 83px;
   width: 18px;
   height: 20px;
   background-position: 263px 40px;
@@ -415,9 +418,9 @@ footer {
 
 .sf p {
   margin-top: 45px;
-  margin-left: 129px;
+  margin-left: calc(104rem / 32);
   font-size: 15px;
-  color: #000000; 
+  color: #000000;
 }
 
 footer p {
